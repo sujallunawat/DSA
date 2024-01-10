@@ -18,7 +18,7 @@ int main() {
     vector<char> c(input.begin(), input.end()); // Convert the string to a char vector
 
     int j = 0;
-    for (int i = 0; i < c.size(); i++) {
+    for (int index = 0; index < c.size(); index++) {
         if (c[i] == ' ') {
             reverse(c, j, i - 1); // Reverse the word between j and i-1 (excluding space)
             j = i + 1; // Update j for the next word
