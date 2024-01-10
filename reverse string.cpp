@@ -31,7 +31,7 @@ int main() {
     for (char ch : c) {
         cout << ch;
     }
-    cout << endl;
+    cout<< endl;
 
     return 0;
 }
