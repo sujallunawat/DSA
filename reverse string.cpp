@@ -13,7 +13,7 @@ vector<char> reverse(vector<char>& c, int s, int e) {
 
 int main() {
     string input;
-    getline(cin, input); // Read the entire line
+    getline(cin,input); // Read the entire line
 
     vector<char> c(input.begin(), input.end()); // Convert the string to a char vector
 
