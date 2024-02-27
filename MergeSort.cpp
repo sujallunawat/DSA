@@ -46,7 +46,7 @@ void mergeSort(int arr[] , int s , int e){
     merge(arr , s , e);
 }
 int main(){
-    int arr [] = { 4 , 6 , 2 , 0 , 5  , -1 , -1 ,-1 ,99 ,100 ,29 , 93 , 0};
+    int arr [] = { 5 , 3, 4 , 2 ,1};
     int n = sizeof(arr)/sizeof(int); ;
 
     mergeSort(arr , 0  , n-1);
